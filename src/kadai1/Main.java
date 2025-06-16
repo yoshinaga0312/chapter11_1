@@ -5,7 +5,7 @@ public class Main {
         // 1. 勇者と魔法使いを生成
         Hero h = new Hero();
         h.name = "ミナト";
-        Wizard w = new Wizard();
+        Wizard w = Wizard.createWizard();
         w.name = "アサカ";
 
         // 2. お化けキノコを2匹生成
